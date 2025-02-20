@@ -44,8 +44,8 @@ However, the system is **intentionally insecure** and contains the following **c
 
 2️⃣ **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/hackme-hospital.git
-   cd hackme-hospital
+   git clone https://github.com/minaramez/Vulnerable-Hospital-Web-Application.git
+   cd Vulnerable-Hospital-Web-Application
    ```
 
 3️⃣ **Move Project Files to XAMPP htdocs Directory**:
