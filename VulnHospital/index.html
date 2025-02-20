@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | VH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('hospitalbuilding.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding-top: 50px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container{
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block; /* Adjusted for flex column */
+            width: 80%; /* Set a max-width for larger screens */
+            max-width: 500px; /* Keep the container sizes manageable */
+        }
+        .contact, .hours {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px; /* Reduced padding for a tighter look */
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+            width: 60%; /* Narrower width for a smaller overall size */
+            max-width: 400px; /* Adjust max-width for control over the maximum size */
+        }
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #5cb85c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #4cae4c;
+        }
+        .info, .contact-info, .hours-info {
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to HackMe Hospital</h1>
+    <p>Select an option below:</p>
+    <a href="loginpage.php" class="button">Login</a>
+    <p class="info">To register for an account, visit the hospital within working hours.</p>
+</div>
+
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p class="contact-info">For any inquiries, please contact us at:</p>
+    <p>Email: <a href="mailto:contact@hackmehospital.com">contact@vulnerablehospital.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+</div>
+
+<div class="hours">
+    <h2>Working Hours</h2>
+    <p class="hours-info">Monday - Friday: 8:00 AM - 10:00 PM</p>
+    <p class="hours-info">Saturday: 9:00 AM - 6:00 PM</p>
+    <p class="hours-info">Sunday: Closed</p>
+</div>
+
+</body>
+</html>
