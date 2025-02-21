@@ -50,7 +50,7 @@ However, the system is **intentionally insecure** and contains the following **c
 
 3️⃣ **Move Project Files to XAMPP htdocs Directory**:
    ```bash
-   mv hackme-hospital /xampp/htdocs/hackme-hospital
+   mv Vulnerable-Hospital-Web-Application /xampp/htdocs/Vulnerable-Hospital-Web-Application
    ```
 
 4️⃣ **Setup the Database**:
@@ -61,7 +61,7 @@ However, the system is **intentionally insecure** and contains the following **c
 5️⃣ **Run the Web Application**:
    - Open your browser and go to:
      ```
-     http://localhost/hackme-hospital/
+     http://localhost/Vulnerable-Hospital-Web-Application/
      ```
    - Login with **default credentials**:
      ```
